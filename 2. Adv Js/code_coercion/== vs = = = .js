@@ -1,3 +1,11 @@
+/* difference between abstract equality vs strict equality 
+
+ ==  does type comparison , and if type same calls ===, which also check types and return true or false,
+ if == type are not same it does typer conversion which === doesn't do.
+
+
+*/
+
 console.log(NaN === 23);
 console.log(NaN === NaN);
 console.log(33 === 33);
